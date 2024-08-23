@@ -10,6 +10,6 @@ struct Test
         };
 
         
-int TestSolve(Test data);
+int TestSolve(Test* data);
 
 #endif
