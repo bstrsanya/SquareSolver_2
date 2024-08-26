@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['outresult_2eh_0',['OutResult.h',['../_out_result_8h.html',1,'']]]
+  ['scancoef_2eh_0',['ScanCoef.h',['../_scan_coef_8h.html',1,'']]],
+  ['solvesquare_2eh_1',['SolveSquare.h',['../_solve_square_8h.html',1,'']]]
 ];

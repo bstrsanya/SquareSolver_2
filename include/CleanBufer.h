@@ -2,10 +2,8 @@
 Данный файл содержит в себе функцию CleanBufer()
 */
 
-
 #ifndef CLEANBUFER
 #define CLEANBUFER
-
 
 /**
     \brief Функция CleanBufer() предназначена для очистки буфера.
@@ -16,7 +14,6 @@
     были прочитаны значения, отличные от "\n" и EOF, иначе выводится
     True. 
 */
-
 
 int CleanBufer ();
 

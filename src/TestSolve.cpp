@@ -5,9 +5,6 @@
 #include "./../include/const.h"
 #include "./../include/TestSolve.h"
 
-
-
-
 int TestSolve (Test* data)
 {
     double x1 = 0, x2 = 0;

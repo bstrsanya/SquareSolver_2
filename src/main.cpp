@@ -9,10 +9,7 @@
     В течение всей программы Вас будут сопровождать комментарими от автора, \n
     для Вашего удобства. Комментарии начинаются c "#". \n
     Успешных решений! \n
-
 */
-
-
 
 #include <stdio.h>
 #include <math.h>
@@ -21,19 +18,16 @@
 #include "./../include/SolveSquare.h"
 #include "./../include/const.h"
 #include "./../include/CompareDouble.h"
-#include "./../include/AllProverka.h"
+#include "./../include/CheckAlgorithm.h"
 #include "./../include/CleanBufer.h"
 #include "./../include/ScanCoef.h"
 #include "./../include/TestSolve.h"
 #include "./../include/OutResult.h"
 
-
-
-
 int main ()
 {
-    printf ("#Solving quadratic equations\n");
-    AllProverka ();
+    printf ("# Solving quadratic equations\n");
+    CheckAlgorithm ();
     printf ("#Enter the coefficients\n");
 
     double a = 0, b = 0, c = 0;
@@ -50,3 +44,4 @@ int main ()
 
     OutResult (result, x1, x2);
 }
+// пробел после #

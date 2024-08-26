@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['outresult_0',['OutResult',['../_out_result_8h.html#ab0d93a1341061410a8a3100eb94b54c8',1,'OutResult.cpp']]]
+  ['scancoef_0',['ScanCoef',['../_scan_coef_8h.html#ab61f4f8f25efbea901b4ecfb5670b685',1,'ScanCoef.cpp']]],
+  ['solvesquare_1',['SolveSquare',['../_solve_square_8h.html#ab2dd9b24e0e487efdd1cd1f40dd3a023',1,'SolveSquare.cpp']]]
 ];

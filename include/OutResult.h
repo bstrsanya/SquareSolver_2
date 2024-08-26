@@ -2,10 +2,8 @@
 Данный файл содержит в себе функцию OutResult()
 */
 
-
 #ifndef OUTRESULT
 #define OUTRESULT
-
 
 /**
     \brief Функция OutResult() предназначена для вывода решений уравнения. Является завершающей функцией программы.
@@ -16,7 +14,6 @@
     \param[in] x1 Первый корень, если он существует.
     \param[in] x2 Второй корень, если он существует.
 */
-
 
 void OutResult (int result, double x1, double x2);
 

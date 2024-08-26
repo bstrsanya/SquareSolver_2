@@ -5,11 +5,11 @@
 
 void ScanCoef (double* a)
 {
-    int chek = scanf ("%lg", a);
+    int nReadParam = scanf ("%lg", a);
 
-    while (CleanBufer () == 0 || chek != 1)
+    while (CleanBufer () == 0 || nReadParam != 1)
         {
         printf ("Try again\n");
-        chek = scanf ("%lg", a);
+        nReadParam = scanf ("%lg", a);
         }
 }

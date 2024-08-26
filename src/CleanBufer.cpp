@@ -4,8 +4,7 @@
 
 int CleanBufer ()
 {
-    int ch, i;
-    i = 0;
+    int ch = 0, i = 0;
 
     while ((ch = getchar ()) != '\n' && ch != EOF)
         i++;

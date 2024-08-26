@@ -2,10 +2,8 @@
 Данный файл содержит в себе функцию SolveSquare()
 */
 
-
 #ifndef SOLVESQUARE
 #define SOLVESQUARE
-
 
 /**
     \brief Фукнция SolveSquare() вычисляет корни квадратного уравнения.
@@ -17,7 +15,6 @@
     \param[out] x2 Второй корень квадратного уравнения.
     \return Количество решений квадратного уравнения.
 */
-
 
 int SolveSquare (double a, double b, double c, double* x1, double* x2);
 
