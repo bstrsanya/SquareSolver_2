@@ -28,15 +28,15 @@ int main ()
 {
     printf ("# Solving quadratic equations\n");
     CheckAlgorithm ();
-    printf ("#Enter the coefficients\n");
+    printf ("# Enter the coefficients\n");
 
     double a = 0, b = 0, c = 0;
 
-    printf ("#coefficients a\n");
+    printf ("# coefficients a\n");
     ScanCoef (&a);
-    printf ("#coefficients b\n");
+    printf ("# coefficients b\n");
     ScanCoef (&b);
-    printf ("#coefficients c\n");
+    printf ("# coefficients c\n");
     ScanCoef (&c);
 
     double x1 = 0, x2 = 0;
@@ -44,4 +44,3 @@ int main ()
 
     OutResult (result, x1, x2);
 }
-// пробел после #

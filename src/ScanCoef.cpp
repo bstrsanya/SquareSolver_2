@@ -3,13 +3,13 @@
 #include "./../include/CleanBufer.h"
 #include "./../include/ScanCoef.h"
 
-void ScanCoef (double* a)
+void ScanCoef (double* coef)
 {
-    int nReadParam = scanf ("%lg", a);
+    int nReadParam = scanf ("%lg", coef);
 
     while (CleanBufer () == 0 || nReadParam != 1)
         {
         printf ("Try again\n");
-        nReadParam = scanf ("%lg", a);
+        nReadParam = scanf ("%lg", coef);
         }
 }
