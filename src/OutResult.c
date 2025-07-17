@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "./../include/OutResult.h"
-#include "./../include/const.h"
+#include "OutResult.h"
+#include "const.h"
 
 void OutResult (int result, double x1, double x2)
 {

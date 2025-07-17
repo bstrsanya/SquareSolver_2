@@ -12,12 +12,12 @@
 */
 
 struct Test
-        {
-        int num_test;
-        double a, b, c;
-        int nRoots;
-        double x1ref, x2ref;
-        };
+{
+    int num_test;
+    double a, b, c;
+    int nRoots;
+    double x1ref, x2ref;
+};
 
 /**
     \brief Фукнция TestSolve() предназначена для вывода ошибок, которые могут появится в программе при выполнении UnitTest.

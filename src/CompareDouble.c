@@ -1,7 +1,7 @@
 #include <math.h>
 
-#include "./../include/CompareDouble.h"
-#include "./../include/const.h"
+#include "CompareDouble.h"
+#include "const.h"
 
 int CompareDouble (double argument_1, double argument_2)
 {

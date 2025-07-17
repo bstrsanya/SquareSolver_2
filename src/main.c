@@ -12,17 +12,18 @@
 */
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include <assert.h>
 
-#include "./../include/SolveSquare.h"
-#include "./../include/const.h"
-#include "./../include/CompareDouble.h"
-#include "./../include/CheckAlgorithm.h"
-#include "./../include/CleanBufer.h"
-#include "./../include/ScanCoef.h"
-#include "./../include/TestSolve.h"
-#include "./../include/OutResult.h"
+#include "SolveSquare.h"
+#include "const.h"
+#include "CompareDouble.h"
+#include "CheckAlgorithm.h"
+#include "CleanBuffer.h"
+#include "ScanCoef.h"
+#include "TestSolve.h"
+#include "OutResult.h"
 
 int main ()
 {

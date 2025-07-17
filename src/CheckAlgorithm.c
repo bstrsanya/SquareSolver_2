@@ -2,11 +2,11 @@
 #include <math.h>
 #include <assert.h>
 
-#include "./../include/CompareDouble.h"
-#include "./../include/ScanCoef.h"
-#include "./../include/CheckAlgorithm.h"
-#include "./../include/const.h"
-#include "./../include/TestSolve.h"
+#include "CompareDouble.h"
+#include "ScanCoef.h"
+#include "CheckAlgorithm.h"
+#include "const.h"
+#include "TestSolve.h"
 
 void CheckAlgorithm ()
 {
@@ -16,13 +16,13 @@ void CheckAlgorithm ()
     ScanCoef (&n_check_algorithm);
 
     while (CompareDouble (n_check_algorithm, 1) == 0 && CompareDouble (n_check_algorithm, 0) == 0)
-        {
+    {
         printf("Try again\n");
         ScanCoef(&n_check_algorithm);
-        }
+    }
 
     if (CompareDouble (n_check_algorithm, 1))
-        {
+    {
         //              #   a    b   c     nSolutions   x1  x2
         //------------------------------------------------------------------------------------------------
         Test data[] = {{1,  1,   2,  -3,   two_solve,  -3,  1},  // a = 1,   b = 2,   c = -3,   two_solve 
@@ -42,18 +42,13 @@ void CheckAlgorithm ()
         const int n_test = sizeof (data) / sizeof (data[0]);
         int counter = 0;                     
         
-        for (int i = 0; i < n_test; i++)
-            {
-            assert (0 <= i && i < n_test);
-            
+        for (int i = 0; i < n_test; i++)            
             if (TestSolve (&data[i]) == 1)
                 counter++;
-            }
         
         if (counter == n_test)
-            printf ("#Check is good!\n");
-        }
+            printf ("# Check is good!\n");
+    }
     else
-        printf ("#You refused to check\n");
-
+        printf ("# You refused to check\n");
 }

@@ -2,8 +2,8 @@
 Данный файл содержит в себе функцию CleanBufer()
 */
 
-#ifndef CLEANBUFER
-#define CLEANBUFER
+#ifndef CLEANBUFFER
+#define CLEANBUFFER
 
 /**
     \brief Функция CleanBufer() предназначена для очистки буфера.
@@ -15,6 +15,6 @@
     True. 
 */
 
-int CleanBufer ();
+int CleanBuffer ();
 
 #endif

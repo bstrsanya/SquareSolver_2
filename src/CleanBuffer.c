@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-#include "./../include/CleanBufer.h"
+#include "CleanBuffer.h"
 
-int CleanBufer ()
+int CleanBuffer ()
 {
     int ch = 0, i = 0;
 
