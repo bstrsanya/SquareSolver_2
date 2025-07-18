@@ -14,7 +14,7 @@ DEBUG_FLAGS = -D _DEBUG -ggdb3 -std=c++17 -O0 -Wall -Wextra -Weffc++ -Waggressiv
 
 ## CC ?= g++ не работает, потому что берется default value CC := cc
 ifeq ($(origin CC),default)
-	CC = g++
+	CC = gcc
 endif 
 
 CFLAGS ?= -O3

@@ -11,13 +11,13 @@
     Необходима для UnitTest. 
 */
 
-struct Test
+typedef struct
 {
     int num_test;
     double a, b, c;
     int nRoots;
     double x1ref, x2ref;
-};
+} Test;
 
 /**
     \brief Фукнция TestSolve() предназначена для вывода ошибок, которые могут появится в программе при выполнении UnitTest.
